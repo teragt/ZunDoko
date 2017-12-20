@@ -1,24 +1,23 @@
     ZunDoko();
 
     function ZunDoko() {
-        let zun_Counter = 0;
+        let zun_Counter = 0, zun = 0, cnt = 0 , doko = 0;
         let kiyoshi_Flag = false;
-        let count = 0;
-        
+
         while( zun_Counter <= 4 && !kiyoshi_Flag ) {
-            let zundon = Math.floor( Math.random() * 2 ) >= 1 ? true : false;
-            count++;
+            let zundoko = Math.floor( Math.random() * 2 ) >= 1 ? true : false;
+            cnt++;
            
-            if( zundon === true ) {
+            if(zundoko) {
                 console.log('ズン');
+                zun++;
                 zun_Counter < 4 ? zun_Counter++ : false;
-            } else if( zundon === false ) {
-                console.log('ドコ');
-                zun_Counter < 4 ? zun_Counter=0 : kiyoshi_Flag=true;
             } else {
-                console.log('ERROR!!!!!');
+                console.log('ドコ');
+                doko++;
+                zun_Counter < 4 ? zun_Counter=0 : kiyoshi_Flag=true;
             }
         }
         console.log('き・よ・し！');
-        console.log(count + '回目で成功')
+        console.log(`${cnt}回目で成功\nズン:${zun}回\nドコ:${doko}回`)
     }
