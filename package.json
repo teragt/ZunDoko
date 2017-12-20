@@ -1,0 +1,22 @@
+{
+  "name": "tszundoko",
+  "version": "1.0.0",
+  "description": "ZunDokoKiyoshi",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node zundoko.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teragt/ZunDoko.git"
+  },
+  "keywords": [
+    "zundoko"
+  ],
+  "author": "kiyoshi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teragt/ZunDoko/issues"
+  },
+  "homepage": "https://github.com/teragt/ZunDoko#readme"
+}
