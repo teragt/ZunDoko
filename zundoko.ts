@@ -1,7 +1,7 @@
     ZunDoko();
 
     function ZunDoko() {
-        let zun_Counter = 0, zun = 0, cnt = 0 , doko = 0;
+        let zun_Counter = 0, cnt = 0 , zun = 0, doko = 0;
         let kiyoshi_Flag = false;
 
         while( zun_Counter <= 4 && !kiyoshi_Flag ) {
