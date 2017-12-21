@@ -1,2 +1,2 @@
-実行方法  
+#実行方法  
 ```ts-node zundoko.ts```
